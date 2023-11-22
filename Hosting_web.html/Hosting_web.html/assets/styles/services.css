@@ -1,0 +1,48 @@
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.services-page-heading {
+    text-align: center;
+    font-size: 52px;
+    font-family: "Times New Roman";
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.service-card:hover {
+    border-color: grey;
+}
+
+/*absolutní rozměry v pixelech, pevné hodnoty*/
+.service-card {
+    border: solid 2px #000000;
+    width: 900px;
+    margin: auto;
+    margin: 40px auto auto;
+    padding: 12px;
+    border-radius: 10px;
+
+}
+
+.service-card h2 {
+    font-size: 32px;
+}
+
+.service-card h3 {
+    color: grey;
+    font-size: 24px;
+}
+
+.service-card p {
+    font-size: 18px;
+}
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registrace</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="../assets/styles/main.css">
+</head>
+<body>
+<header>
+    <nav class="navigation-menu">
+        <ul class="nav-links">
+            <li class="nav-link"><a class="nav-link" href="../index.html">Home</a></li>
+            <li class="nav-link"><a class="nav-link" href="../services.html">Služby</a></li>
+            <li class="nav-link"><a class="nav-link" href="../contacts.html">Kontakty</a></li>
+            <li class="nav-link"><a class="nav-link" href="registration.html">Registrace</a></li>
+            <li class="nav-link"><a class="nav-link" href="subpage.html">Dotaz</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h1 class="registration-heading">Vytvoření zákaznického účtu</h1>
+    <form class="sign-up-form">
+        <label for="first-name">Jméno</label>
+        <input type="text" id="first-name" autocomplete="off" minlength="3" maxlength="15" placeholder="Vaše jméno..." required>
+        <label for="last-name">Příjmení</label>
+        <input type="text" id="last-name" autocomplete="off" minlength="2" maxlength="15" placeholder="Vaše příjmení..." required>
+        <label for="mail">E-mail</label>
+        <input type="email" id="mail" autocomplete="off" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" placeholder="name@example.com" required>
+        <label for="phone">Telefon</label>
+        <div class="mobile-call">
+            <select id="telephone">
+                <option>+420</option>
+                <option>+421</option>
+                <option>+49</option>
+                <option>+48</option>
+                <option>+43</option>
+            </select>
+            <input type="tel" id="phone" name="phone" autocomplete="tel-number" pattern="[\d]{3} [\d]{3} [\d]{3}" placeholder="777 853 342" required>
+        </div>
+        <label for="first-name">Datum narození</label>
+        <input type="date" id="username" autocomplete="off" minlength="3" maxlength="25" placeholder="Vaše přihlašovací jméno..." required>
+        <label for="password">Heslo</label>
+        <input type="password" id="password" placeholder="Vaše přihlašovací heslo..." required>
+        <div class="terms">
+            <input type="checkbox" id="agree-terms" required>
+            <label class="agree-terms">Podmínky použití a nejsem robot!</label>
+        </div>
+        <button class="registration-button" type="submit">Registrovat</button>
+    </form>
+</main>
+<footer>
+    <nav class="footer-menu">
+        <ul class="footer-links">
+            <li class="footer-link">Podmínky použití</li>
+            <li class="footer-link">Všechna práva jsou vyhrazena</li>
+            <li class="footer-link">Kontakt</li>
+        </ul>
+    </nav>
+</footer>
+</body>
+</html

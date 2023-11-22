@@ -1,0 +1,131 @@
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.subpage-page-heading {
+    text-align: center;
+    font-size: 42px;
+    font-family: "Times New Roman";
+    margin: 40px;
+}
+
+.subpage-message {
+    font-family: "Times New Roman";
+    font-size: 18px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+
+.subpage-message:hover {
+    border-color: grey;
+    background-color: lightblue;
+}
+
+.subpage-container {
+    border: solid 1px #000000;
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.subpage-container:hover {
+    border-color: grey;
+    background-color: lightblue;
+}
+
+.subpage-card {
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.subpage-card:hover {
+    border-color: grey;
+}
+
+.img-card {
+    height: 200px;
+    width: auto;
+    text-align: right;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.img-card-second {
+    height: auto;
+    width: auto;
+    text-align: right;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.img-card-third {
+    height: 250px;
+    width: auto;
+    text-align: right;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.img-card-fourth {
+    height: 200px;
+    width: auto;
+    text-align: right;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.img-card-fifth {
+    height: 200px;
+    width: auto;
+    text-align: right;
+    border-radius: 10%;
+    margin: auto;
+}
+
+.subpage-info {
+    text-align: right;
+    font-size: 18px;
+    font-family: "Times New Roman";
+}
+
+.subpage-text {
+    font-size: 16px;
+    font-family: "Times New Roman";
+    text-align: justify;
+}
+
+.subpage-information {
+    font-size: 18px;
+    font-family: "Times New Roman";
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.subpage-heading {
+    text-align: center;
+    font-family: "Times New Roman";
+    margin: 20px;
+}
+
+.subpage-up-form {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+.subpage-up-form input,
+.subpage-up-form select {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+

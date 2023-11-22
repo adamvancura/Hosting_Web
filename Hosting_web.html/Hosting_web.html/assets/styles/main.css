@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+}
+
+.main-page-info {
+    background-image: url("/assets/images/cloud-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    padding: 54px;
+    color: #ffff;
+    opacity: 0.9;
+}
+
+.main-heading {
+    color: white;
+    font-size: 32px;
+    /*padding-left: 32px;
+    padding-right: 32px;*/
+}
+
+.main-page-info h2 {
+    font-size: 32px;
+}
+
+.main-page-info p {
+    font-size: 24px;
+}
+
+.services-heading, .social-media-heading, .registration-heading {
+    font-size: 52px;
+    text-align: center;
+}
+
+.main-page-services {
+    transition: background 500ms;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.service-item {
+    /*
+border-style: solid;
+border-color: #0000;
+border-width: 2px;
+    */
+    border: solid 2px #000000;
+    width: 30%;
+    text-align: center;
+    transition: background 500ms;
+}
+
+.service-item h2 {
+    font-size: 32px;
+}
+
+.service-item p {
+    font-size: 24px;
+}
+
+.service-description {
+    list-style: none;
+    padding: 4px;
+    font-size: 18px;
+}
+
+.service-item.recommended {
+    background-color: black;
+    color: #ffff;
+}
+
+.service-description li {
+    margin: 8px;
+}
+
+.service-btn-buy {
+    width: 180px;
+    height: 40px;
+    margin-bottom: 24px;
+    font-size: 18px;
+    border: solid 2px #000000;
+    border-radius: 8px;
+}
+
+.service-btn-buy:hover {
+    color: #ffff;
+    background-color: blue;
+}
+
+.heading-recommended {
+    background-color: #ffff;
+    color: #000000;
+    width: 100px;
+    text-align: center;
+}
+
+.main-page-social-media {
+    margin-top: 60px;
+}
+
+.social-media-items {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.social-media-item {
+    width: 30%;
+}
+

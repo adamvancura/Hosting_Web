@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+.registration-heading {
+    text-align: center;
+    font-size: 52px;
+}
+
+.sign-up-form label,
+.sign-up-form select,
+.sign-up-form input {
+    font-size: 15px;
+    display: block;
+    margin-top: 15px;
+    width: 100%;
+
+}
+
+.sign-up-form {
+    margin-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.sign-up-form label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.agree-terms {
+    display: flex;
+    margin: 0;
+}
+
+.terms input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 15px;
+}
+
+.terms label[class="confirmation"] {
+    width: 622px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.terms label {
+    margin: 0;
+}
+
+.sign-up-form button {
+    margin-top: 30px;
+}
+
+.terms {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    width: 650px;
+    margin-left: -73px;
+    margin-right: auto;
+}
+
+.mobile-call {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.phone-call input[type="tel"] {
+    margin: 0;
+}
+
+.sign-up-form select[id="telephone"] {
+    margin: 0;
+    width: 65px;
+}
+
+.sign-up-form input,
+.sign-up-form select {
+    padding: 4px;
+}
+
+.registration-button {
+    border: none;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    height: 34px;
+    width: 110px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    transition: background-color 1s;
+}
+
+.navigation-menu:hover {
+    background-color: #47195b;
+}
+
+.nav-link {
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 22px;
+    color: #fdfeff;
+    text-decoration: none;
+}
+
+.fa {
+    font-size: 48px;
+}
+
+.fa:hover {
+    color: darkblue;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.footer-link {
+    font-size: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 34px;
+    color: white;
+}
+
+.footer-menu {
+    margin-top: 95px;
+}
+
+.agree-terms {
+    padding-left: 50px;
+    display: flex;
+}
+
+

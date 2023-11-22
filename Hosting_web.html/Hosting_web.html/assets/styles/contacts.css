@@ -1,0 +1,51 @@
+.navigation-menu {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.contact-page-heading {
+    text-align: center;
+    font-size: 52px;
+    font-family: sans-serif;
+}
+
+.contact-item {
+    font-size: 16px;
+    font-family: sans-serif;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid;
+}
+
+.img-container {
+    margin: 50px;
+}
+
+.img-container img {
+    opacity: 90%;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.third-text {
+    padding-right: 50px;
+}
+
+.contacts-info-left {
+    text-align: left;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.contact-info-right {
+    text-align: right;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+}

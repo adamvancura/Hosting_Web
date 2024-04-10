@@ -1,0 +1,228 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+.background-section {
+    position: relative;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 30px;
+    background-image: url('assets/images/airportfinal.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.uvodni-zprava {
+    position: absolute;
+    top: 30px;
+    font-size: 24px;
+    color: white;
+}
+
+.main-heading {
+    position: absolute;
+    font-size: 72px;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0px 0px 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-heading-text {
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    padding-top: 30px;
+}
+
+.buttons {
+    position: absolute;
+    top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.first-button {
+    color: white;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    padding: 12px 16px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: transparent;
+}
+
+.first-button:hover {
+    color: #f0F0F0;
+}
+
+.second-button {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    padding: 14px 18px;
+    border-color: transparent;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: #d1c5b3;
+}
+
+.second-button:hover {
+    color: #f0F0F0;
+}
+
+.call-button {
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border: 3px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.call-button:hover {
+    color: #f0F0F0;
+}
+
+.second-section {
+    background-color: #432322;
+
+    padding: 48px 24px;
+    text-align: center;
+    position: relative;
+    height: 500px;
+}
+
+.section-heading {
+    font-size: 72px;
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    padding-top: 40px;
+    margin: 0px 0px 28px;
+    padding: 28px 0px 0px;
+    text-align: center;
+}
+
+.section-text {
+    font-family: "Work Sans", sans-serif;
+    font-size: 32px;
+    color: white;
+    margin: 0px 0px 28px;
+    padding: 28px 0px 8px;
+}
+
+.passport-section {
+    height: 700px;
+}
+
+.passport-img {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    justify-content: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.discover-section {
+    height: 70%;
+    position: relative;
+    background-color: #432322;
+}
+
+.discover-heading {
+    font-size: 48px;
+    font-family: "Work Sans", sans-serif;
+    margin: 0px 0px 24px;
+    text-align: center;
+    padding-top: 90px;
+
+    color: #f0F0F0;
+}
+
+
+.discover-container {
+    display: flex;
+}
+
+.discover-heading {
+    margin: 0px 0px 24px;
+    text-align: center;
+}
+
+.discover-item {
+    color: #f0F0F0;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    margin: 18px;
+}
+
+.item-heading {
+    font-family: "Work Sans", sans-serif;
+    font-size: 32px;
+    margin: 0px 0px 16px;
+    color: #f0F0F0;
+    padding-top: 10px;
+}
+
+.icon {
+    width: 50px;
+    padding-left: 25px;
+}
+
+
+.item-text {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.gallery-container {
+    background-color: #432322;
+    width: 100%;
+}
+
+.gallery {
+    width: 50%;
+    display: flex;
+    margin: auto;
+}
+
+.gallery-item {
+    width: 100%;
+    display: none;
+    height: 500px;
+}
+
+.gallery-button {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    &:hover {
+        cursor: pointer;
+        opacity: 50%;
+    }
+}
